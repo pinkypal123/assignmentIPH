@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    padding:1rem 2rem;
+    background-color: black;
+    color:white;
+    flex-wrap: wrap;
+}
+.leftside{
+    display: flex;
+    float: left;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+.rightside{
+    display: flex;
+    float: right;
+    font-size: 1.2rem;
+    font-weight: 100;
+    gap:1rem;
+    justify-content: space-around;
+}
+.loginButton{
+    background-color: green;
+    color:#fff;
+    padding:.3rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
