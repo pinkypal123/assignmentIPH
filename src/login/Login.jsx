@@ -21,7 +21,7 @@ const Login = () => {
       <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>User Email</Form.Label>
-        <Form.Control type="text" placeholder="Enter User Name" onChange={(e)=>setUserInfo({...userInfo,userEmail:e.target.value})} />
+        <Form.Control type="email" placeholder="Enter User Email" onChange={(e)=>setUserInfo({...userInfo,userEmail:e.target.value})} />
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicPassword">

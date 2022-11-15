@@ -17,7 +17,7 @@ const Signup = () => {
       <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>User Email</Form.Label>
-        <Form.Control type="email" placeholder="Enter User Name" onChange={(e)=>setUserData({...userData,userEmail:e.target.value})}/>
+        <Form.Control type="email" placeholder="Enter User Email" onChange={(e)=>setUserData({...userData,userEmail:e.target.value})}/>
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
