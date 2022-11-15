@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form';
 const Signup = () => {
   const navigate=useNavigate()
     const [userData,setUserData]=useState({
-        userName:'',
+        userEmail:'',
         userPassword:''
     })
     const signupPage=()=>{
@@ -16,13 +16,13 @@ const Signup = () => {
     <div style={{display:'flex',flexDirection:'column',alignItems:'center',marginTop:'8rem'}}>
       <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>User Name</Form.Label>
-        <Form.Control type="text" placeholder="Enter User Name" onChange={(e)=>setUserData({...userData,userName:e.target.value})}/>
+        <Form.Label>User Email</Form.Label>
+        <Form.Control type="email" placeholder="Enter User Name" onChange={(e)=>setUserData({...userData,userEmail:e.target.value})}/>
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
         <Form.Label>Password</Form.Label>
-        <Form.Control type="password" placeholder="Password" onChange={(e)=>setUserData({...userData,userName:e.target.value})}/>
+        <Form.Control type="password" placeholder="Password" onChange={(e)=>setUserData({...userData,userPassword:e.target.value})}/>
       </Form.Group>
       <Button variant="primary" type="submit" onClick={signupPage}>
         Signup

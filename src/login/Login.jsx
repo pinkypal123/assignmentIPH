@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 const Login = () => {
     const navigate=useNavigate()
     const[userInfo,setUserInfo]=useState({
-        userName:'',
+        userEmail:'',
         userPassword:''
     })
     const LoginData=()=>{
@@ -20,8 +20,8 @@ const Login = () => {
     <div style={{display:'flex',flexDirection:'column',alignItems:'center',marginTop:'8rem'}}>
       <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>User Name</Form.Label>
-        <Form.Control type="text" placeholder="Enter User Name" onChange={(e)=>setUserInfo({...userInfo,userName:e.target.value})} />
+        <Form.Label>User Email</Form.Label>
+        <Form.Control type="text" placeholder="Enter User Name" onChange={(e)=>setUserInfo({...userInfo,userEmail:e.target.value})} />
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
