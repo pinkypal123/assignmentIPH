@@ -40,9 +40,9 @@ console.log(data)
         Login
       </Button>
     </Form>
-    {errorInfo?<div className='error' style={{color:'red',marginTop:'10'}}>
+    {errorInfo&&<div className='error' style={{color:'red',marginTop:'10'}}>
       Plz first correct userEmail and Password
-      </div>:<div className='error' style={{color:'red',marginTop:'10'}}>Login Successfully</div>}
+      </div>}
 
     </div>
   )
