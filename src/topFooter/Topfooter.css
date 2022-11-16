@@ -1,0 +1,36 @@
+.topFooter{
+    background:url('https://cdn.pixabay.com/photo/2017/06/06/22/46/mediterranean-cuisine-2378758_960_720.jpg') no-repeat center center/cover;
+   /* background-color: black; */
+   color:white;
+    height:500px;
+    display: flex;
+    overflow: hidden;
+    padding:4rem;
+    z-index: 6;
+}
+.topFooterImg{
+    flex:1;
+    height:3rem;
+}
+.topFooterContent{
+    flex:2;
+    padding:4rem;
+}
+.topFooterContent>.topFooterHeading{
+    color:green;
+    font-weight: bold;
+}
+.topFooterContent>.topFooterPara{
+    font-size: 1.3rem;
+    font-weight: 360;
+    /* width:60%; */
+}
+.topFooterImg>img{
+    height:400px;
+    width:230px;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+.topFooterIcon>img{
+    height:50px;
+}

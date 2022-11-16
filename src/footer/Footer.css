@@ -1,0 +1,75 @@
+
+.footercontainer{
+    background-color: lightgray;
+}
+.footerConContent{
+    padding:3rem 24rem;
+}
+.paragraphFooter{
+    align-items: center;
+    font-size: 2rem;
+    padding:.5rem;
+   font-weight: 100;
+}
+.footerContent{
+    display: flex
+}
+.enterEmail{
+    flex: 3;
+    background-color: black;
+    color:#fff;
+    padding:1rem;
+   font-size: 1rem;
+}
+.submitButton{
+    flex: 1;
+    background-color: green;
+    color:#fff;
+    padding:1rem;
+    text-align: center;
+    font-size: 1rem;
+}
+/* Footrer1 */
+.footer1{
+    display: flex;
+    padding:1rem;
+    background-color: black;
+    color:#fff;
+}
+.aboutFooter1{
+    flex: 1.5;
+    padding:1rem 4rem;
+}
+.aboutFooter{
+    display: flex;
+    flex: 3;
+    padding: 1rem 7rem;
+}
+.aboutFooter>.aboutFooter2{
+    padding:0rem 5rem;
+}
+.aboutFooter1>h3,.aboutFooter2>h3{
+    color:green;
+}
+.aboutFooter1>p, .aboutFooter2>p{
+    color:#fff;
+}
+.aboutFooter2>p>i{
+    color:#fff;
+}
+/* footer icon */
+.footerIcon1,.footerIcon2{
+    display: flex;
+    padding:1rem 2rem;
+    gap:1rem;
+}
+/* Footer */
+.footerCenter{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    background-color: black;
+    color:white;
+    font-size: 1.3rem;
+    font-weight: 200;
+    padding-bottom: 1rem;
+}

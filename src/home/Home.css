@@ -1,0 +1,84 @@
+
+.container{
+    display: flex;
+    margin:3rem 3rem;
+}
+.leftContainer{
+    flex:2.5;
+}
+.rightContainer{
+    flex:1;
+    display: flex;
+}
+.processCheck{
+    text-align: center;
+    font-weight: 100;
+}
+.reviewImage{
+    display: flex;
+    margin: 2rem 0rem;
+}
+.reviewImage>img{
+    height:7rem;
+    width:6rem;
+    border-radius:50% ;
+    border-bottom: 1px solid lightgray;
+}
+.reviewIcon{
+    color:yellow;
+}
+.nameMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    
+}
+.nameMenu>.light{
+    background-color: lightgray;
+    color:black;
+    padding:1rem 5rem;
+
+}
+.nameMenu>.dark{
+    background-color: black;
+    color:white;
+    padding:1rem 5rem;
+}
+.reviewHeading{
+    margin: 3rem 0rem;
+}
+.reviewContent{
+    display: flex;
+}
+.content{
+    margin-left: 2rem;
+}
+/* search order */
+.rightContainer{
+border: 1px solid black;
+height:400px;
+margin-left: 4rem;
+background-color: lightgray;
+/* width:70%; */
+}
+.rightContainer>Table>tr{
+    padding:1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color:black;
+}
+.rightContainer>Table{
+    padding:1rem;
+}
+.fa-trash{
+    color:red;
+}
+
+.processCheckout{
+    background-color: orange;
+    align-items: center;
+    padding:1rem 2rem;
+}
